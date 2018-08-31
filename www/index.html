@@ -17,7 +17,7 @@
   <link rel="icon" href="/assets/images/favicon-16x16.png" sizes="16x16" type="image/png" />
   <link rel="manifest" href="/manifest.json" />
   
-  <style>:root{--font-family-system:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--font-family-code:Menlo,Monaco,"Courier New",monospace;--color-blue:#ffbf47;--color-primary:var(--color-blue);--color-gray-0:#111;--color-gray-70:#767676;--color-gray-30:#eee}*{margin:0;padding:0;box-sizing:border-box}body{padding:2rem 1rem;font-family:var(--font-family-system);font-size:1.125rem;line-height:1.5;color:var(--color-gray-0);border-top:6px solid var(--color-primary)}@media screen and (min-width:720px){body{padding:4rem}}section+section{padding-top:2rem}h1{font-size:3em;line-height:1.1;margin-bottom:24px}h2{font-size:1.2em;line-height:1.2;margin-bottom:16px;margin-top:8px}p{font-size:1.2em;line-height:1.2;margin-bottom:24px}a{color:inherit;-webkit-text-decoration-color:var(--color-primary);text-decoration-color:var(--color-primary)}</style>
+  <style>:root{--font-family-system:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;--font-family-code:Menlo,Monaco,"Courier New",monospace;--color-blue:#ffbf47;--color-primary:var(--color-blue);--color-gray-0:#111;--color-gray-70:#767676;--color-gray-30:#eee}*{margin:0;padding:0;box-sizing:border-box}body{padding:2rem 1rem;font-family:var(--font-family-system);font-size:1.125rem;line-height:1.5;color:var(--color-gray-0);border-top:6px solid var(--color-primary)}@media screen and (min-width:720px){body{padding:4rem}}section+section{padding-top:2rem}h1{font-size:3em;line-height:1.1;margin-bottom:24px}h2{font-size:1.8em;line-height:1.2;margin-bottom:24px;margin-top:56px}ol,p{font-size:1.2em;line-height:1.5;margin-bottom:32px}ol{margin-left:32px}a{color:inherit;-webkit-text-decoration-color:var(--color-primary);text-decoration-color:var(--color-primary)}.subscribe-form{display:flex}.subscribe-form input[type=email]{padding:10px;font-size:20px;font-size:1em;border-radius:0;-webkit-appearance:none;border:3px solid #000;width:300px}.subscribe-form input[type=submit]{padding:10px 16px;font-size:20px;font-size:.8em;border-radius:8px;-webkit-appearance:none;border:3px solid #000;background-color:#000;color:var(--color-primary);font-weight:700;text-transform:uppercase;letter-spacing:.05em;border-top-left-radius:0;border-bottom-left-radius:0}.subscribe-form input[type=submit]:hover{background-color:#333;border:3px solid #333}</style>
 </head>
 <body>
   <main>
@@ -26,21 +26,34 @@
   <p>A Practical Guide to Designing and Coding Simple and Inclusive Forms for the Web.</p>
 
   <h2>Contents</h2>
-  <p>Some contents.</p>
+  <p>The book is organised into 10 chapters, each one representing specific problem. But, while some of the problems are specific, the patterns are reusable and transferable to many forms you're likely to be designing.</p>
+
+  <ol>
+    <li>A Registration Form</li>
+    <li>A Checkout Form</li>
+    <li>A Flight Booking Form</li>
+    <li>A Login Form</li>
+    <li>An Inbox</li>
+    <li>A Search Form</li>
+    <li>A Filter Form</li>
+    <li>An Upload Form</li>
+    <li>An Expense Form</li>
+    <li>A Really Long and Complicated Form</li>
+  </ol>
 
   <h2>Mailing list</h2>
   <form action="https://adamsilver.us9.list-manage.com/subscribe/post?u=b8fb04f39bf86109693e00ba5&amp;id=441c045a36" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
     <!-- interested in form design patterns book updates -->
     <input type="hidden" value="1" name="group[34661][1]" id="mce-group[34661]-34661-0">
-
-    <div>
-      <label for="mce-EMAIL">Email Address </label>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-    </div>
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8fb04f39bf86109693e00ba5_441c045a36" tabindex="-1" value=""></div>
 
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    <label for="mce-EMAIL">Email Address </label>
+    <div class="subscribe-form">
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </div>
+
   </form>
 
 
