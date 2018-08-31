@@ -1,0 +1,69 @@
+/* ==========================================================================
+   SETTINGS
+   ========================================================================== */
+
+:root {
+  --font-family-system: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family-code: Menlo, Monaco, "Courier New", monospace;
+  --color-blue: #ffbf47;
+  --color-primary: var(--color-blue);
+  --color-gray-0: #111;
+  --color-gray-70: #767676;
+  --color-gray-30: #eee;
+}
+
+
+/* ==========================================================================
+   GENERIC
+   ========================================================================== */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem 1rem;
+  font-family: var(--font-family-system);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--color-gray-0);
+  border-top: 6px solid var(--color-primary);
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    padding: 4rem;
+  }
+}
+
+section + section {
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.2;
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+a {
+  color: inherit;
+  -webkit-text-decoration-color: var(--color-primary);
+          text-decoration-color: var(--color-primary);
+}
