@@ -1,6 +1,0 @@
-name: Form Design Patterns Book
-markdown: kramdown
-url: https://formdesignpatterns.com
-description: MaintainableCSS is an approach to writing modular, scalable and of course, maintainable CSS.
-sass:
-  sass_dir: assets/_sass
