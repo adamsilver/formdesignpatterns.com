@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "npm run serve",
     "build": "npx eleventy --config=config/eleventy.config.js",
     "serve": "npx eleventy --config=config/eleventy.config.js --serve"
   },
