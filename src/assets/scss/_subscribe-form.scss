@@ -1,0 +1,69 @@
+.subscribeForm {
+	margin: 0 auto $spacing-scale-5;
+	@include mq($from: md) {
+		margin-bottom: $spacing-scale-9;
+	}
+}
+
+.subscribeForm-label {
+	font-size: 1.1875em;
+  line-height: 1.684210526;
+	display: block;
+	font-weight: 700;
+	color: $colour-blue;
+}
+
+@media(min-width: 37em) {
+	.subscribeForm-label {
+		font-size: 1.38em;
+	}
+}
+
+.subscribeForm-email {
+
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+	font-size: 1em;
+	border-radius: 0;
+	-webkit-appearance: none;
+	border: 3px solid $colour-blue;
+
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+@media(min-width: 37em) {
+	.subscribeForm-email {
+		max-width: 21em;
+		margin-bottom: 0;
+	}
+}
+
+.subscribeForm-button {
+	display: inline-block;
+	padding: 10px 16px;
+	font-size: 20px;
+	font-size: 1em;
+	border-radius: 8px;
+	-webkit-appearance: none;
+	border: 3px solid $colour-blue;
+	background-color: $colour-blue;
+	color: $colour-white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media(min-width: 37em) {
+	.subscribeForm-button {
+		border-radius: 0 8px 8px 0;
+		position: relative;
+		left: -1px;
+	}
+}
+
+.subscribeForm-button:hover {
+	background-color: $colour-blue-dark;
+	border-color: $colour-blue-dark;
+}

@@ -1,0 +1,111 @@
+input {
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+html {
+	font-size: 100%;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+body {
+	border-top: 6px solid $colour-yellow;
+  text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+kbd {
+  padding: 0.0625rem 0.5rem;
+  border-radius: 0.125rem;
+  border: 1px solid $colour-black;
+  box-shadow: 1px 1px 0 currentColor, 1px 1px 0 currentColor;
+}
+
+a:link,
+a:visited {
+	color: $colour-blue;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+a:active {
+	background-color: $colour-blue;
+	color: $colour-white;
+}
+
+main {
+
+}
+
+section {
+	padding: 30px 40px;
+}
+
+.inner {
+	max-width: 600px;
+}
+
+section:nth-child(2n) {
+	background-color: $colour-light-grey;
+}
+
+h1 {
+	@include typography(xl);
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+}
+
+h2 {
+	@include typography(l);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: $spacing-scale-2;
+	color: $colour-black;
+
+	@include mq($from: md) {
+		margin-top: $spacing-scale-5;
+	}
+}
+
+h3 {
+	@include typography(body);
+	margin-bottom: $spacing-scale-1;
+	color: $colour-black;
+	margin-top: $spacing-scale-4;
+}
+
+p {
+	@include typography(body);
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+	@include mq($from: md) {
+		margin-bottom: $spacing-scale-4;
+	}
+}
+
+ol,
+ul {
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+}
+
+ol li,
+ul li {
+	@include typography(body);
+	margin-left: $spacing-scale-4;
+	margin-bottom: $spacing-scale-1;
+}
+
+blockquote {
+	font-style: italic;
+	margin-bottom: $spacing-scale-4;
+	padding: 0 $spacing-scale-3;
+	color: $colour-black;
+}
+
+blockquote cite {
+	font-weight: bold;
+}

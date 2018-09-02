@@ -8,41 +8,49 @@ permalink: /
 {% from 'components/reference.njk' import reference %}
 
 {% block main %}
-  <h1>Form Design Patterns Book</h1>
-  <p>A Practical Guide to Designing and Coding Simple and Inclusive Forms for the Web.</p>
-
-  <h2>Contents</h2>
-  <p>The book is organised into 10 chapters, each one representing specific problem. But, while some of the problems are specific, the patterns are reusable and transferable to many forms you're likely to be designing.</p>
-
-  <ol>
-    <li>A Registration Form</li>
-    <li>A Checkout Form</li>
-    <li>A Flight Booking Form</li>
-    <li>A Login Form</li>
-    <li>An Inbox</li>
-    <li>A Search Form</li>
-    <li>A Filter Form</li>
-    <li>An Upload Form</li>
-    <li>An Expense Form</li>
-    <li>A Really Long and Complicated Form</li>
-  </ol>
-
-  <h2>Mailing list</h2>
-  <p>Sign up for book updates only. No spam and definitely no popups.</p>
-  <form action="https://adamsilver.us9.list-manage.com/subscribe/post?u=b8fb04f39bf86109693e00ba5&amp;id=441c045a36" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-
-    <!-- interested in form design patterns book updates -->
-    <input type="hidden" value="1" name="group[34661][1]" id="mce-group[34661]-34661-0">
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8fb04f39bf86109693e00ba5_441c045a36" tabindex="-1" value=""></div>
-
-    <label for="mce-EMAIL">Email Address </label>
-    <div class="subscribe-form">
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+  <section>
+    <div class="inner">
+      <h1>Form Design Patterns Book</h1>
+      <p>A Practical Guide to Designing and Coding Simple and Inclusive Forms for the Web.</p>
     </div>
+  </section>
+  <section>
+    <div class="inner">
+      <h2>Contents</h2>
+      <p>The book is organised into 10 chapters, each one representing specific problem. But, while some of the problems are specific, the patterns are reusable and transferable to many forms you're likely to be designing.</p>
 
-  </form>
+      <ol>
+        <li>A Registration Form</li>
+        <li>A Checkout Form</li>
+        <li>A Flight Booking Form</li>
+        <li>A Login Form</li>
+        <li>An Inbox</li>
+        <li>A Search Form</li>
+        <li>A Filter Form</li>
+        <li>An Upload Form</li>
+        <li>An Expense Form</li>
+        <li>A Really Long and Complicated Form</li>
+      </ol>
+    </div>
+  </section>
+  <section>
+    <div class="inner">
 
+      <h2>Mailing list</h2>
+      <p>Sign up for book updates only. No spam and definitely no popups.</p>
+      <form action="https://adamsilver.us9.list-manage.com/subscribe/post?u=b8fb04f39bf86109693e00ba5&amp;id=441c045a36" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
-<!--End mc_embed_signup-->
+        <!-- interested in form design patterns book updates -->
+        <input type="hidden" value="1" name="group[34661][1]" id="mce-group[34661]-34661-0">
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8fb04f39bf86109693e00ba5_441c045a36" tabindex="-1" value=""></div>
+
+        <label for="mce-EMAIL">Email Address </label>
+        <div class="subscribe-form">
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+
+      </form>
+    </div>
+  </section>
 {% endblock %}
