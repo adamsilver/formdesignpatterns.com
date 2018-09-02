@@ -8,6 +8,6 @@ var fs = require('fs');
 module.exports = {
   // Some default locations
   buildSrc: "src",
-  buildDest: "www",
+  buildDest: "dist",
 };
 

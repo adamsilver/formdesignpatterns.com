@@ -11,7 +11,7 @@ require('require-dir')('./gulp-tasks');
 /*
  Run our static site generator to build the pages
 */
-gulp.task('generate', shell.task('npx eleventy --config=config/eleventy.config.js'));
+gulp.task('generate', shell.task('npx eleventy'));
 
 /*
   compile the assets to the correct destination
