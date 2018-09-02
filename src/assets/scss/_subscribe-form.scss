@@ -10,7 +10,7 @@
   line-height: 1.684210526;
 	display: block;
 	font-weight: 700;
-	color: $colour-blue;
+	color: $colour-black;
 }
 
 @media(min-width: 37em) {
@@ -27,7 +27,7 @@
 	font-size: 1em;
 	border-radius: 0;
 	-webkit-appearance: none;
-	border: 3px solid $colour-blue;
+	border: 3px solid $colour-black;
 
 	width: 100%;
 	box-sizing: border-box;
@@ -48,9 +48,9 @@
 	font-size: 1em;
 	border-radius: 8px;
 	-webkit-appearance: none;
-	border: 3px solid $colour-blue;
-	background-color: $colour-blue;
-	color: $colour-white;
+	border: 3px solid $colour-black;
+	background-color: $colour-black;
+	color: $colour-yellow;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -64,6 +64,6 @@
 }
 
 .subscribeForm-button:hover {
-	background-color: $colour-blue-dark;
-	border-color: $colour-blue-dark;
+	// background-color: $colour-black-dark;
+	// border-color: $colour-black-dark;
 }

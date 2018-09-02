@@ -10,14 +10,34 @@ permalink: /
 {% block main %}
   <section>
     <div class="inner">
-      <h1>Form Design Patterns Book</h1>
+      <h1>Form Design Patterns</h1>
       <p>A Practical Guide to Designing and Coding Simple and Inclusive Forms for the Web.</p>
     </div>
   </section>
   <section>
     <div class="inner">
+      <h2>About the book</h2>
+      <p>Without forms, the web is just a passive experience, where content is only consumed. But, with forms, the web can become collaborative, creative and productive. We can create, edit, delete and categorise large amounts of data such as email; advertise and sell unwanted products; buy a plane ticket, apply for a driving license and so much more.
+
+      <p>Forms are at the center of every meaningful interaction, so it's imperative that we invest ample time in getting them right.</p>
+
+      <p>On first glance, forms are simple to learn. Made up of just a handful of inputs, you can create a form in little time. But when we consider the journeys we need to design, the users we need to design for, the browsers and devices (of varying sizes, capabilities and bugs) being used; and ensuring that the result is simple and inclusive, form design becomes a far more interesting and bigger challenge.</p>
+
+      <p>The book contains ten chapters (shown below). Each one represents a real-world and common problem that we’ll solve together step by step. Design is just as much about asking (and understanding) questions, as it is about creating solutions. So we’ll spend time doing just that: discussing the problem, weighing up the options and creating technical solutions that are simple and inclusive (more on that shortly).</p>
+
+      <p>Each chapter revolves around a specific problem because that’s how we solve problems in real life (we don’t work in the abstract). But don’t be concerned, many of the styles, components and patterns born out of each chapter are reusable and applicable well beyond the specifics and you’ll see examples of this as we move through the book.</p>
+
+      <p>By the end of the book you’ll have a close-to exhaustive list of ready-to-go components, delivered as a design system that you can fork, contribute to and use immediately on your projects. But more than that, you’ll have the mindset and rationale behind when (or when not) to use each solution, which is just as important as the solution itself.</p>
+
+      <p>Ultimately, this book is about understanding what users need. Users are people and people are different. So we’ll be considering multiple interaction modalities and how to help users work under situational (temporary or permanent) and environmental circumstances. That’s why we’ll be looking at every problem through an inclusive design lens: because good design is inclusive.</p>
+
+      <p>Underpinning this notion will mean designing simple, robust, light-weight, responsive, accessible, progressively-enhanced, interoperable and easy to understand (and learn) interfaces that let users get stuff done no matter the situation.</p>
+    </div>
+  </section>
+  <section>
+    <div class="inner">
       <h2>Contents</h2>
-      <p>The book is organised into 10 chapters, each one representing specific problem. But, while some of the problems are specific, the patterns are reusable and transferable to many forms you're likely to be designing.</p>
+      <p>10 chapters, each one representing one <em>big</em> problem.</p>
 
       <ol>
         <li>A Registration Form</li>
@@ -38,19 +58,21 @@ permalink: /
 
       <h2>Mailing list</h2>
       <p>Sign up for book updates only. No spam and definitely no popups.</p>
-      <form action="https://adamsilver.us9.list-manage.com/subscribe/post?u=b8fb04f39bf86109693e00ba5&amp;id=441c045a36" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
 
-        <!-- interested in form design patterns book updates -->
-        <input type="hidden" value="1" name="group[34661][1]" id="mce-group[34661]-34661-0">
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8fb04f39bf86109693e00ba5_441c045a36" tabindex="-1" value=""></div>
 
-        <label for="mce-EMAIL">Email Address </label>
-        <div class="subscribe-form">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-        </div>
 
-      </form>
+      <div class="subscribeForm">
+        <form action="https://adamsilver.us9.list-manage.com/subscribe/post?u=b8fb04f39bf86109693e00ba5&amp;id=441c045a36" method="post" name="mc-embedded-subscribe-form">
+            <!-- interested in form design patterns book updates -->
+            <input type="hidden" value="1" name="group[34661][1]" id="mce-group[34661]-34661-0">
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b8fb04f39bf86109693e00ba5_441c045a36" tabindex="-1" value=""></div>
+
+            <label for="mce-EMAIL" class="subscribeForm-label">Email Address </label>
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="subscribeForm-email" required><input type="submit" value="Subscribe" name="subscribe" class="subscribeForm-button">
+          </form>
+      </div>
+
+
     </div>
   </section>
 {% endblock %}

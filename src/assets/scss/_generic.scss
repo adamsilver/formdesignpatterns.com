@@ -52,6 +52,10 @@ section:nth-child(2n) {
 	background-color: $colour-light-grey;
 }
 
+section:nth-child(4n) {
+	background-color: $colour-yellow;
+}
+
 h1 {
 	@include typography(xl);
 	margin-bottom: $spacing-scale-4;
