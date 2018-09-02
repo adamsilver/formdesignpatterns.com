@@ -48,8 +48,12 @@ section {
 	max-width: 600px;
 }
 
+section:first-child {
+	padding-top: 60px;
+}
+
 section:nth-child(2n) {
-	background-color: #fffcef;
+	background-color: $colour-yellow-light;
 }
 
 section:nth-child(4n) {
