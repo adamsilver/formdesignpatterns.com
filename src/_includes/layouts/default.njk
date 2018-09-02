@@ -17,21 +17,11 @@
   <link rel="icon" href="/assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
   <link rel="manifest" href="/manifest.json">
   <link rel="canonical" href="{{ site.url }}{{ page.url | permalink }}">
-  {% set css %}
-    {% include "assets/app.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
+  <link rel="stylesheet" href="/assets/css/main.css" media="all">
 </head>
 <body>
   <main>
     {% block main %}{% endblock %}
   </main>
-  <script>
-    if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/sw.js', {
-        scope: '/'
-      });
-    }
-  </script>
 </body>
 </html>
