@@ -117,3 +117,10 @@ blockquote {
 blockquote cite {
 	font-weight: bold;
 }
+
+.book {
+	display: block;
+	max-width: 600px;
+	margin: 0 auto;
+	width: 100%;
+}

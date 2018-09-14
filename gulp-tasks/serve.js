@@ -7,5 +7,5 @@ var serve   = require('gulp-serve');
 */
 gulp.task('serve', serve({
   root: [project.buildDest],
-  port: 8080,
+  port: 3000,
 }));

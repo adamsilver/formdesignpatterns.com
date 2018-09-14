@@ -21,7 +21,9 @@
 </head>
 <body>
   <main>
-    {% block main %}{% endblock %}
+    {% block main %}
+      {{ content | safe }}
+    {% endblock %}
   </main>
 </body>
 </html>
