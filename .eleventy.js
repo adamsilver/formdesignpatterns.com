@@ -9,7 +9,7 @@ module.exports = eleventyConfig => {
     .addPassthroughCopy('src/manifest.json')
 
   return {
-    templateFormats: ['njk', 'md', 'html'],
+    templateFormats: ['njk', 'md', 'html', 'png', 'ico', 'svg', 'xml', 'jpg'],
     dir: {
       input: 'src',
       includes: '_includes',
