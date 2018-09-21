@@ -62,7 +62,6 @@ section:nth-child(4n) {
 
 h1 {
 	@include typography(xl);
-	margin-bottom: $spacing-scale-4;
 	color: $colour-black;
 }
 
