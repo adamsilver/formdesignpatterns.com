@@ -36,6 +36,15 @@ a:active {
 	color: $colour-white;
 }
 
+.status {
+	border: 3px solid $colour-black;
+	border-radius: 3px;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: $colour-yellow;
+}
+
 main {
 
 }
