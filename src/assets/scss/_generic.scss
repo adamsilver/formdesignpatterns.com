@@ -71,7 +71,11 @@ section:nth-child(4n) {
 
 h1 {
 	@include typography(xl);
+	margin-bottom: $spacing-scale-2;
 	color: $colour-black;
+	@include mq($from: md) {
+		margin-bottom: $spacing-scale-4;
+	}
 }
 
 h2 {
