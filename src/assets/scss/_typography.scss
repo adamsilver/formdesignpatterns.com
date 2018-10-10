@@ -30,6 +30,17 @@ $type: (
       font-size: em(19),
 		  line-height: 32/19
     )
+  ),
+
+  small: (
+    base: (
+      font-size: em(14),
+	    line-height: 24/14
+    ),
+    md: (
+      font-size: em(16),
+		  line-height: 32/16
+    )
   )
 
 );
