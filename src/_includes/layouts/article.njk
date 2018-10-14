@@ -3,11 +3,8 @@ layout: layouts/default.njk
 ---
 
 {% block main %}
-  <div class="article">
+  <div class="basicPage">
     <h1>{{ title }}</h1>
-
     {{ content | safe }}
-
-    <p><a href="{{ '/' | url }}">← Home</a></p>
   </div>
 {% endblock %}

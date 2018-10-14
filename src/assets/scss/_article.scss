@@ -1,0 +1,79 @@
+.basicPage {
+  pa
+  ding-top: $spacing-scale-4;
+	max-width: em(600);
+	padding-bottom: $spacing-scale-4;
+	padding-left: $spacing-scale-2;
+	padding-right: $spacing-scale-2;
+	margin: 0 auto;
+	display: block;
+	@include mq($from: md) {
+		padding-top: $spacing-scale-5;
+	}
+}
+
+.basicPage h1 {
+	@include typography(xl);
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+}
+
+.basicPage h2 {
+	@include typography(l);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: $spacing-scale-2;
+	color: $colour-black;
+	margin-top: $spacing-scale-4;
+
+	@include mq($from: md) {
+		margin-top: $spacing-scale-5;
+	}
+}
+
+.basicPage h3 {
+	@include typography(body);
+	margin-bottom: $spacing-scale-1;
+	color: $colour-black;
+	margin-top: $spacing-scale-4;
+}
+
+.basicPage p {
+	@include typography(body);
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+	@include mq($from: md) {
+		margin-bottom: $spacing-scale-4;
+	}
+}
+
+.basicPage ol,
+.basicPage ul {
+	margin-bottom: $spacing-scale-4;
+	color: $colour-black;
+}
+
+.basicPage ol li,
+.basicPage ul li {
+	@include typography(body);
+	margin-left: $spacing-scale-4;
+	margin-bottom: $spacing-scale-1;
+}
+
+.basicPage blockquote {
+	font-style: italic;
+	margin-bottom: $spacing-scale-4;
+	padding: 0 $spacing-scale-3;
+	color: $colour-black;
+}
+
+.basicPage blockquote cite {
+	font-weight: bold;
+}
+
+.basicPage p code,
+.basicPage ul code,
+.basicPage li code {
+	font-size: 1.2em;
+	color: $colour-blue;
+}
