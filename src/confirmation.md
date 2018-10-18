@@ -1,6 +1,6 @@
 ---
 layout: layouts/article.njk
-title: You're done!
+title: You're all signed up
 ---
 
 Boom! You've confirmed your email address. I'll be in touch soon.

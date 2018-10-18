@@ -3,6 +3,6 @@ layout: layouts/article.njk
 title: Thanks for signing up
 ---
 
-Check your email to confirm your subscription.
+# Thanks! Now check your email.
 
-[Back to home page](/).
+You should get a confirmation email soon, open it up and confirm your email address to complete sign up.
