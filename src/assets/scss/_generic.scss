@@ -45,15 +45,18 @@ a:active {
 	background-color: $colour-yellow;
 }
 
-main {
-
-}
-
 section {
-	padding: 30px 40px;
+	padding: 30px 25px;
+	@include mq($from: md) {
+		padding: 60px 50px;
+	}
 }
 
 .inner {
+	max-width: 1400px;
+}
+
+.prose {
 	max-width: 600px;
 }
 
@@ -69,12 +72,21 @@ section:nth-child(4n) {
 	background-color: $colour-yellow;
 }
 
+.available {
+	@include typography(body);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #788b9b;
+	letter-spacing: 0.03em;
+	margin: 10px 0 5px;
+}
+
 h1 {
 	@include typography(xl);
-	margin-bottom: $spacing-scale-2;
+	margin-bottom: $spacing-scale-3;
 	color: $colour-black;
 	@include mq($from: md) {
-		margin-bottom: $spacing-scale-4;
+		margin-bottom: $spacing-scale-6;
 	}
 }
 
@@ -94,7 +106,7 @@ h3 {
 	@include typography(body);
 	margin-bottom: $spacing-scale-1;
 	color: $colour-black;
-	margin-top: $spacing-scale-4;
+	margin-top: $spacing-scale-7;
 }
 
 p {
@@ -102,7 +114,7 @@ p {
 	margin-bottom: $spacing-scale-4;
 	color: $colour-black;
 	@include mq($from: md) {
-		margin-bottom: $spacing-scale-4;
+		margin-bottom: $spacing-scale-6;
 	}
 }
 
@@ -124,6 +136,7 @@ blockquote {
 	margin-bottom: $spacing-scale-4;
 	padding: 0 $spacing-scale-3;
 	color: $colour-black;
+	border-left: 5px solid $colour-yellow;
 }
 
 blockquote cite {
@@ -133,6 +146,29 @@ blockquote cite {
 .book {
 	display: block;
 	max-width: 600px;
-	margin: 0 auto;
 	width: 100%;
 }
+
+.block {
+	overflow: hidden;
+}
+
+.block-section1 {
+	margin-bottom: 50px;
+	@include mq($from: lg) {
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+		padding-right: 50px;
+	}
+}
+
+.block-section2 {
+	@include mq($from: lg) {
+		float: right;
+		width: 50%;
+		box-sizing: border-box;
+		padding-left: 50px;
+	}
+}
+

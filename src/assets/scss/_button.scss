@@ -1,29 +1,22 @@
 .button:link,
 .button:visited {
 	display: inline-block;
-	padding: 10px 16px;
+	padding: 15px;
 	font-size: 20px;
 	font-size: 1em;
-	border-radius: 8px;
 	-webkit-appearance: none;
-	border: 3px solid $colour-black;
 	background-color: $colour-black;
 	color: $colour-yellow;
 	font-weight: bold;
 	text-transform: uppercase;
   color: $colour-white;
-  text-decoration: none;
-  margin-bottom: 8px;
+	text-decoration: none;
+	margin-bottom: $spacing-scale-5;
+	@include mq($from: md) {
+		margin-bottom: $spacing-scale-7;
+	}
 }
 
 .button:hover {
   color: $colour-yellow;
-}
-
-.available {
-  @include typography(small);
-  @include mq($from: md) {
-    display: inline-block;
-    margin-left: 8px;
-  }
 }

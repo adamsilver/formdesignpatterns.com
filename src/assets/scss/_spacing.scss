@@ -1,13 +1,12 @@
-$multiple       : 8px !default;
+$multiple       : 5px !default;
 $spacing-scale-1: $multiple;
 
-// Multiples of 8px
-$spacing-scale-2: $multiple * 2; // 16px
-$spacing-scale-3: $multiple * 3; // 24px
-$spacing-scale-4: $multiple * 4; // 32px
-$spacing-scale-5: $multiple * 5; // 40px
-$spacing-scale-6: $multiple * 6; // 48px
-$spacing-scale-7: $multiple * 7; // 56px
-$spacing-scale-8: $multiple * 8; // 64px
-$spacing-scale-9: $multiple * 9; // 72px
-$spacing-scale-10: $multiple * 10; // 72px
+$spacing-scale-2: $multiple * 2; // 10
+$spacing-scale-3: $multiple * 3; // 15
+$spacing-scale-4: $multiple * 4; // 20
+$spacing-scale-5: $multiple * 5; // 25
+$spacing-scale-6: $multiple * 6; // 30
+$spacing-scale-7: $multiple * 7; // 40
+$spacing-scale-8: $multiple * 8; // 60
+$spacing-scale-9: $multiple * 9; // 85
+$spacing-scale-10: $multiple * 10; // 100
